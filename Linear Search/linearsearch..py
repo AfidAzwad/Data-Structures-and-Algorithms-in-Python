@@ -1,4 +1,6 @@
 # Linear search does the sequential access whereas Binary search access data randomly.
+# Time complexity of linear search -O(n)
+# Linear search performs equality comparisons
 
 # The query can be absent in this list
 # The array/list can be empty
