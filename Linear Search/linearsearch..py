@@ -1,3 +1,5 @@
+# Linear search does the sequential access whereas Binary search access data randomly.
+
 # The query can be absent in this list
 # The array/list can be empty
 # The query can be repeated in the list
