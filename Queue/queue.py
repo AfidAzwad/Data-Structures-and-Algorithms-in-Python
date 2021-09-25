@@ -4,6 +4,8 @@
 
 # The order is First In First Out (FIFO). 
 # Example: Patient serial in hospital 
+# time complexity O(1) cause everytime we are dealing with 1 index
+
 
 class queue():
     pass
