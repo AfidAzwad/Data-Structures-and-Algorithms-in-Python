@@ -2,6 +2,7 @@
 # Push, which adds an element to the collection, and Pop, which removes 
 # the most recently added element that was not yet removed.
 # It follows LIFO method
+# time complexity O(1) cause everytime we are dealing with 1 index
 
 class stack:
     def __init__(self):
