@@ -40,6 +40,28 @@ class LinkedList():
             current = current.next
             i += 1
         return None
+    
+    def reverse(l):
+        if l.head is None:
+            return
+    
+        current_node = l.head
+        prev_node = None
+    
+        while current_node is not None:
+         # Track the next node
+           next_node = current_node.next
+          
+        # Modify the current node
+           current_node.next = prev_node
+        
+         # Update prev and current
+           prev_node = current_node
+           current_node = next_node
+         
+           l.head = prev_node
+
+
 
 
 node1 = Node(2)
@@ -60,4 +82,8 @@ print("\nLength of the Linked list : ", list1.length(),"\n")
 
 print("Value of 2nd position : ",list1.get_element(1))
 
+list1.show_elements()
+
+print("Reversed list : ")
+list1.reverse()
 list1.show_elements()
